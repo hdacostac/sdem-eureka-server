@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --no-cache -t eureka-server:latest .
+docker build --no-cache -t sdem-eureka-server:latest .

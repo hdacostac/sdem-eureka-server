@@ -23,7 +23,7 @@ $ mvn clean package -Pdocker [-Dmaven.test.skip=true]
 And after that you can do
 ```sh
 $ docker build --no-cache -t eureka-server:latest .
-$ docker run --name eureka-server -d -p 8761:8761 eureka-server:latest
+$ docker run --name eureka-server -d -p 8762:8762 eureka-server:latest
 $ docker logs eureka-server
 $ docker exec -it eureka-server bash
 

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run --name eureka-server -d -p 8761:8761 eureka-server:latest && docker logs -f eureka-server
+docker run --name sdem-eureka-server -d -p 8762:8762 sdem-eureka-server:latest && docker logs -f sdem-eureka-server

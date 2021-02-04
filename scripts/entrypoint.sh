@@ -4,7 +4,7 @@ echo "==> Configuring the environment..."
 
 cd /home/app
 
-BOOTSTRAT_PROPERTIES_URL=${CONFIG_SERVER_URL}/eureka-service/${PROFILE}/${BRANCH}/eureka-bootstrap-${PROFILE}.properties
+BOOTSTRAT_PROPERTIES_URL=${CONFIG_SERVER_URL}/eureka-server/${PROFILE}/${BRANCH}/eureka-bootstrap-${PROFILE}.properties
 
 echo JAVA_OPTS=$JAVA_OPTS
 echo Trying to download bootstrap.properties from $BOOTSTRAT_PROPERTIES_URL
@@ -33,4 +33,4 @@ fi
 
 printf '%b\n' "$(cat bootstrap.properties)"
 
-java $JAVA_OPTS -jar eureka-server.jar
+java $JAVA_OPTS -jar sdem-eureka-server.jar

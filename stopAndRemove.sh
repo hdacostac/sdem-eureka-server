@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker stop eureka-server && docker ps -a | awk '{ print $1,$2 }' | grep eureka-server:latest | awk '{print $1 }' | xargs -I {} docker rm {}
+docker stop sdem-eureka-server && docker ps -a | awk '{ print $1,$2 }' | grep sdem-eureka-server:latest | awk '{print $1 }' | xargs -I {} docker rm {}

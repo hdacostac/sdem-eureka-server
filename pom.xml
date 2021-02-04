@@ -10,14 +10,14 @@
 	</parent>
 
 	<groupId>com.gvt</groupId>
-	<artifactId>eureka-server</artifactId>
+	<artifactId>sdem-eureka-server</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>${packagingType}</packaging>
 
 	<properties>
 		<spring.boot.mainClass>com.gvt.service.EurekaServiceApplication</spring.boot.mainClass>
 
-		<sonar.projectName>eureka-server</sonar.projectName>
+		<sonar.projectName>sdem-eureka-server</sonar.projectName>
 	</properties>
 
 	<profiles>
@@ -77,7 +77,7 @@
 	</profiles>
 
 	<build>
-		<finalName>eureka-server</finalName>
+		<finalName>sdem-eureka-server</finalName>
 
 		<resources>
 			<resource>
