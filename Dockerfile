@@ -4,7 +4,7 @@ ENV HTTP_PORT 8762
 
 ENV CONFIG_SERVER_URL http://localhost:8989
 ENV BRANCH develop
-ENV PROFILE prod
+ENV PROFILE dev
 
 ENV EUREKA_SERVER_URL http://localhost:8762/eureka/
 
