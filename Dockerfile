@@ -2,11 +2,11 @@ FROM openjdk:11.0.9.1-jdk
 
 ENV HTTP_PORT 8762
 
-ENV CONFIG_SERVER_URL http://localhost:8989
+ENV CONFIG_SERVER_URL http://192.168.1.137:8989
 ENV BRANCH develop
 ENV PROFILE dev
 
-ENV EUREKA_SERVER_URL http://localhost:8762/eureka/
+ENV EUREKA_SERVER_URL http://192.168.1.137:8762/eureka/
 
 ENV PROXY_OPTS "" 
 ENV REGION_OPTS -Duser.timezone=UTC -Duser.language=en
